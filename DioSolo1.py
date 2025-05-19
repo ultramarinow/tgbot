@@ -9,14 +9,14 @@ import sqlite3
 from aiogram import Dispatcher
 from aiogram.filters import CommandStart
 
-TOKEN = getenv('7414654605:AAHtfj8b5PqDJkbKXhlAAytM3nSMYHdvkUg')
+TOKEN = getenv('7414654605:AAHSv2FMzoy1DXMJn3cbu5fxD9HypewkqeY')
 
 
 print('START')
 user_dict = {}
 dp = Dispatcher()
 vamp_router = Router()
-bot = Bot(token='7414654605:AAHtfj8b5PqDJkbKXhlAAytM3nSMYHdvkUg')
+bot = Bot(token='7414654605:AAHSv2FMzoy1DXMJn3cbu5fxD9HypewkqeY')
 profile_router = Router()
 bug_router = Router()
 top_router = Router()
